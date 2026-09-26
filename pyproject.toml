@@ -6,8 +6,12 @@ readme = "README.md"
 authors = [
     { email = "ismailbenmezi300@gmail.com" }
 ]
-requires-python = ">=3.14"
-dependencies = []
+requires-python = ">=3.12"
+dependencies = [
+    "joblib>=1.6.0",
+    "scikit-learn==1.6.1",
+    "streamlit>=1.64.0",
+]
 
 [project.scripts]
 student-exam-score-prediction-ml = "student_exam_score_prediction_ml:main"
